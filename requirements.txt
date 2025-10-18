@@ -1,0 +1,8 @@
+streamlit
+torch
+torchvision
+pydicom
+pillow
+numpy
+matplotlib
+grad-cam
