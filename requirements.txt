@@ -1,20 +1,9 @@
-# --- Core app ---
 streamlit>=1.35,<2
-
-# --- PyTorch stack ---
 torch==2.2.2
 torchvision==0.17.2
-torchaudio==2.2.2
+pytorch-grad-cam>=1.5.0
+opencv-python-headless<5
+numpy
+Pillow
+matplotlib
 
-# --- Medical imaging ---
-pydicom>=2.4.4
-pillow>=10.3.0
-numpy>=1.24,<3
-matplotlib>=3.8
-scikit-image>=0.22
-pandas>=2.0
-tqdm>=4.66
-
-# --- Grad-CAM & visualization ---
-pytorch-grad-cam==1.5.2
-opencv-python-headless==4.9.0.80
